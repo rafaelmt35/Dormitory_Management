@@ -74,8 +74,8 @@ public abstract class Employee : Human
 
 class Director : Employee
 {
-
-
+    List<SmallRoom> smallrooms = new List<SmallRoom>();
+    List<BigRooms> bigrooms = new List<BigRooms>();
     public Director(double salary, string name, string phone, string roles) : base(salary, name, phone, roles)
     {
 
@@ -89,15 +89,18 @@ class Director : Employee
     public void givestudRoom(Student student)
     {
         Random rnd = new Random();
-        if (rnd.Next(1, 20) % 2 == 0)
+        int randnum = rnd.Next(1, 2);
+        if (randnum == 1)
         {
-
+            
+            smallrooms.Add(new SmallRoom(112, 3, student));
+            smallrooms[0].StudentLive(student);
         }
-        else
+        else if (randnum == 2)
         {
-
-        };
-
+            bigrooms.Add(new BigRooms(114, 4, student));
+            bigrooms[0].StudentLive(student);
+        }
     }
 
 

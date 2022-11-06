@@ -41,11 +41,12 @@ namespace DormitoryManagement
                     dormitory.hireEmployee(humans[i]);
                 }
                 Console.WriteLine(humans[i].Name);
+
             }
-
-
-
-
+            
+            Student student1 = new Student("Mike", "1123413123");
+            Director director1 = new Director(112, "All", "1234", "Director");
+            student1.registerRoom(director1);
         }
         static List<Human> setHumans(int qty)
         {

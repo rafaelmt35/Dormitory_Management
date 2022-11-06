@@ -16,7 +16,7 @@ class SmallRoom : Rooms
 {
 
     double price;
-    public SmallRoom(double price, int max)
+    public SmallRoom(double price, int max, Student student)
     {
         this.price = price;
         max = 3;
@@ -42,7 +42,7 @@ class BigRooms : Rooms
 {
 
     double price;
-    public BigRooms(double price, int max)
+    public BigRooms(double price, int max, Student student)
     {
         this.price = price;
         max = 4;
