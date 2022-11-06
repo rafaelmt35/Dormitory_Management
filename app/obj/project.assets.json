@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RAFAEL\\OneDrive\\Desktop\\OOAP\\Supermarket\\app\\app.csproj",
+      "projectUniqueName": "C:\\Users\\RAFAEL\\OneDrive\\Desktop\\OOAP\\Dormitory_Management\\app\\app.csproj",
       "projectName": "app",
-      "projectPath": "C:\\Users\\RAFAEL\\OneDrive\\Desktop\\OOAP\\Supermarket\\app\\app.csproj",
+      "projectPath": "C:\\Users\\RAFAEL\\OneDrive\\Desktop\\OOAP\\Dormitory_Management\\app\\app.csproj",
       "packagesPath": "C:\\Users\\RAFAEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RAFAEL\\OneDrive\\Desktop\\OOAP\\Supermarket\\app\\obj\\",
+      "outputPath": "C:\\Users\\RAFAEL\\OneDrive\\Desktop\\OOAP\\Dormitory_Management\\app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
