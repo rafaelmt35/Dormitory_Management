@@ -89,14 +89,14 @@ class Director : Employee
     public void givestudRoom(Student student)
     {
         Random rnd = new Random();
-        int randnum = rnd.Next(1, 2);
-        if (randnum == 1)
+        int randnum = rnd.Next(1, 4);
+        if (randnum == 1 || randnum == 3)
         {
-            
+
             smallrooms.Add(new SmallRoom(112, 3, student));
             smallrooms[0].StudentLive(student);
         }
-        else if (randnum == 2)
+        else if (randnum == 2 || randnum == 4)
         {
             bigrooms.Add(new BigRooms(114, 4, student));
             bigrooms[0].StudentLive(student);

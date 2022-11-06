@@ -43,10 +43,12 @@ namespace DormitoryManagement
                 Console.WriteLine(humans[i].Name);
 
             }
-            
+
             Student student1 = new Student("Mike", "1123413123");
+            Student student2 = new Student("Lena", "234343");
             Director director1 = new Director(112, "All", "1234", "Director");
             student1.registerRoom(director1);
+            student2.registerRoom(director1);
         }
         static List<Human> setHumans(int qty)
         {
